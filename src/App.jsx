@@ -206,7 +206,8 @@ function App() {
                    <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Bowserinator/Periodic-Table-JSON">Atomic info</a></li>
                        <li><a target="_blank" rel="noopener noreferrer" href="https://stem.signalgarden.com/">3d Models</a></li>
                            <li><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Periodic_table">Periodic table</a></li>
-                               <li><a target="_blank" rel="noopener noreferrer" href="https://claude.ai">Claude</a> was used to assist with debugging and programming. No AI-generated content is directly displayed.</li>
+                               <li><a target="_blank" rel="noopener noreferrer" href="https://claude.ai">Claude</a> was used to assist with debugging. No AI-generated content is directly displayed.</li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://https://github.com/Samalando/periodic-table"> Source Code</a> </li>
                         </ul>
                 </details>
             </div>
