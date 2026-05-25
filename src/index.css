@@ -1,0 +1,170 @@
+:root {
+    --text: #000000;
+    --bg: #efe9d6;
+
+    --square: 50px;
+
+    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --mono: ui-monospace, Consolas, monospace;
+
+    font: 18px/145% var(--sans);
+    letter-spacing: 0.18px;
+    color: var(--text);
+    background: var(--bg);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#box {
+    width:5px;
+    display:table;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+    .periodic-table {
+        display: grid;
+        grid-template-columns: repeat(18, 50px);
+        grid-template-rows: repeat(7, 50px);
+        gap: 5px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .square {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: transform 0.1s ease, background-color 0.1s ease;
+    }
+    .square:hover {
+        transform: scale(1.8);
+        background-color: var(--hover-color);
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    .square-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .atomic-number {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .symbol {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .categories {
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+.categories > div {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+    .name {
+        font-size: 8px;
+    }
+
+    .alkali-metal{
+        background-color: #9fd9c7
+    }
+
+    .alkine-earth-metal {
+        background-color: #dc6464;
+    }
+
+    .transition-metal {
+             background-color: #9e74e7;
+         }
+
+    .post-transition-metal {
+        background-color: #6cc978
+    }
+
+    .metalloid {
+        background-color: #b99751
+    }
+
+    .nonmetal {
+        background-color: #7ba8e5
+    }
+
+    .noble-gas{
+        background-color: #de558e
+    }
+
+    .lanthanide{
+        background-color: #659cb0
+    }
+
+    .actinide{
+        background-color: #f89e23
+    }
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.modal-overlay {
+
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+model-viewer {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border: 1px solid var(--text);
+}
+
+
+
+
+
+
+
+
+
+
+
